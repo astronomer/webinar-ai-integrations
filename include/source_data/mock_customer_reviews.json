@@ -1,0 +1,227 @@
+[
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I love this product, been using it for all my machine learning pipelines! Especially the UI is great.",
+        "customer_id": 1068,
+        "customer_location": "Switzerland",
+        "customer_rating": 2,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I found the product difficult to use and not very intuitive.",
+        "customer_id": 1532,
+        "customer_location": "Switzerland",
+        "customer_rating": 2,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "This product has transformed the way I work, absolutely fantastic UX!",
+        "customer_id": 1714,
+        "customer_location": "Switzerland",
+        "customer_rating": 1,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Fantastic experience with the customer service team!",
+        "customer_id": 1017,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Quite disappointed with the overall quality of the user interface.",
+        "customer_id": 1182,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "A game changer in the industry, very impressed with the user experience!",
+        "customer_id": 1504,
+        "customer_location": "Switzerland",
+        "customer_rating": 1,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Fantastic experience with the customer service team!",
+        "customer_id": 1941,
+        "customer_location": "Switzerland",
+        "customer_rating": 5,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I don't like the product, been using it for machine learning pipelines and struggling with the UI.",
+        "customer_id": 1645,
+        "customer_location": "Switzerland",
+        "customer_rating": 2,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "The product did not meet my expectations, ugly UI.",
+        "customer_id": 1577,
+        "customer_location": "Switzerland",
+        "customer_rating": 2,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I love this product, been using it for all my machine learning pipelines! Especially the UI is great.",
+        "customer_id": 1699,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Excellent value for money, highly recommend it.",
+        "customer_id": 1835,
+        "customer_location": "Switzerland",
+        "customer_rating": 3,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Excellent value for money, highly recommend it.",
+        "customer_id": 1380,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I love this product, been using it for all my machine learning pipelines! Especially the UI is great.",
+        "customer_id": 1531,
+        "customer_location": "Switzerland",
+        "customer_rating": 1,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I don't like the product, been using it for machine learning pipelines and struggling with the UI.",
+        "customer_id": 1149,
+        "customer_location": "Switzerland",
+        "customer_rating": 3,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Fantastic experience with the customer service team!",
+        "customer_id": 1111,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "The product did not meet my expectations, ugly UI.",
+        "customer_id": 1217,
+        "customer_location": "Switzerland",
+        "customer_rating": 5,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "A game changer in the industry, very impressed with the user experience!",
+        "customer_id": 1664,
+        "customer_location": "Switzerland",
+        "customer_rating": 1,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I don't like the product, been using it for machine learning pipelines and struggling with the UI.",
+        "customer_id": 1271,
+        "customer_location": "Switzerland",
+        "customer_rating": 3,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I love this product, been using it for all my machine learning pipelines! Especially the UI is great.",
+        "customer_id": 1186,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Not very satisfied with the performance of the product.",
+        "customer_id": 1977,
+        "customer_location": "Switzerland",
+        "customer_rating": 3,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "I love this product, been using it for all my machine learning pipelines! Especially the UI is great.",
+        "customer_id": 1589,
+        "customer_location": "Switzerland",
+        "customer_rating": 1,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Quite disappointed with the overall quality of the user interface.",
+        "customer_id": 1664,
+        "customer_location": "Switzerland",
+        "customer_rating": 5,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Not very satisfied with the performance of the product.",
+        "customer_id": 1138,
+        "customer_location": "Switzerland",
+        "customer_rating": 3,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "Not very satisfied with the performance of the product.",
+        "customer_id": 1772,
+        "customer_location": "Switzerland",
+        "customer_rating": 2,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    },
+    {
+        "ab_test_group": "A",
+        "customer_feedback": "The product did not meet my expectations, ugly UI.",
+        "customer_id": 1069,
+        "customer_location": "Switzerland",
+        "customer_rating": 4,
+        "product_type": "cloud service A",
+        "timestamp": "2023-11-28T14:29:15Z"
+    }
+]

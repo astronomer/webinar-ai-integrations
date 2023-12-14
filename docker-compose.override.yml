@@ -1,0 +1,59 @@
+version: '3.1'
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2
+    ports:
+      - "9200:9200" # OpenSearch REST API
+      - "9300:9300" # OpenSearch Node-to-Node communication
+    environment:
+      - discovery.type=single-node
+      - plugins.security.ssl.http.enabled=false
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    networks:
+      - airflow
+  postgres_pgvector:
+    image: ankane/pgvector
+    volumes:
+      - ${PWD}/include/postgres:/var/lib/postgresql/data
+      - ${PWD}/include:/include
+    networks:
+      - airflow
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres   
+  weaviate:
+    image: semitechnologies/weaviate:latest
+    command: "--host 0.0.0.0 --port '8081' --scheme http"
+    ports:
+      - 8081:8081
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'text2vec-openai'
+      ENABLE_MODULES: 'text2vec-openai'
+      CLUSTER_HOSTNAME: 'node1'
+      AUTHENTICATION_APIKEY_ENABLED: 'true'
+      AUTHENTICATION_APIKEY_ALLOWED_KEYS: 'readonlykey,adminkey'
+      AUTHENTICATION_APIKEY_USERS: 'jane@doe.com,john@doe.com'
+    networks:
+      - airflow
+# Airflow containers
+  scheduler:
+    networks:
+      - airflow
+  webserver:
+    networks:
+      - airflow
+  triggerer:
+    networks:
+      - airflow
+  postgres:
+    networks:
+      - airflow
+
+# volume for OpenSearch
+volumes:
+  opensearch-data:
