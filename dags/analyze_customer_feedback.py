@@ -45,6 +45,8 @@ COHERE_CONN_ID = "cohere_ai_integrations_demo"
 OPENSEARCH_CONN_ID = "opensearch_ai_integrations_demo"
 OPENSEARCH_INDEX_NAME = "customer_feedback"
 
+MY_POOL = "my_cohere_pool"
+
 
 @dag(
     start_date=datetime(2023, 10, 18),
@@ -208,7 +210,9 @@ def analzye_customer_feedback():
     # and get embeddings using the Cohere API #
     # --------------------------------------- #
 
-    @task
+    @task(
+        pool=MY_POOL,
+    )
     def get_sentiment(input_text: str, sentiment_examples: list, conn_id: str) -> float:
         "Get the sentiment of the customer feedback using the Cohere API."
         co = CohereHook(conn_id=conn_id).get_conn
@@ -234,6 +238,7 @@ def analzye_customer_feedback():
     get_embeddings = CohereEmbeddingOperator.partial(
         task_id="get_embeddings",
         conn_id=COHERE_CONN_ID,
+        pool=MY_POOL,
     ).expand(input_text=feedback_texts)
 
     @task
